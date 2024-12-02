@@ -59,6 +59,7 @@ class _MyAppState extends State<MyApp> {
   }
 }*/
 
+
 import 'package:flutter/material.dart';
 import 'screens/map_screen.dart';
 
@@ -70,11 +71,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Bus Fare App',
+      title: 'Bus Fare Calculator',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: MapScreen(),
     );
   }
 }
-
